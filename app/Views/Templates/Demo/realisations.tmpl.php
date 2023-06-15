@@ -30,8 +30,6 @@ use SYRADEV\app\DemoController;
                           </div>
                           <div class="col">
                             MVC Countries
-
-                            toto
                           </div>
                         </div>
                       </a>
