@@ -78,9 +78,32 @@ use SYRADEV\app\DemoController;
                   <div class="row my-5">
                     <div class="col">
                       <button type="button" class="btn btn-outline-light"><a href="https://www.youtube.com/channel/UCE-vS7Z2HPjcbg3Hbu2uDjQ"><img src="<?= DemoController::assets('/imgs/youtube.png'); ?>" width="200px" alt=""></a></button>
+                      <h1>Vidéos</h1>
                     </div>
                     <div class="col">
                       <button type="button" class="btn btn-outline-light"><a href="https://soundcloud.com/user-646538650"><img src="<?= DemoController::assets('/imgs/soundcloud.png'); ?>" width="200px" alt=""></a></button>
+                      <h1>Sons</h1>
+                    </div>
+                    <div class="col">
+                      <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><img src="<?= DemoController::assets('/imgs/camera.png'); ?>" width="200px" alt=""></button>
+                      <h1>Photos</h1>
+                    </div>
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            ...
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Understood</button>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
