@@ -118,18 +118,14 @@ use SYRADEV\app\DemoController;
 
                                         </div>
                                           <img src="<?= DemoController::assets('/imgs/Church.jpg'); ?>" class="d-block w-100" alt="...">
-                                          <div class="carousel-caption d-none d-md-block">
-                                            <h5>Front-end</h5>
-                                          </div>
+
                                         </div>
                                         <div class="carousel-item" data-bs-interval="2000">
                                         <div class="cards-wrapper">
 
                                         </div>
                                           <img src="<?= DemoController::assets('/imgs/greenmoon.jpg'); ?>" class="d-block w-100" alt="...">
-                                          <div class="carousel-caption d-none d-md-block">
-                                            <h5>Back - end</h5>
-                                          </div>
+
                                         </div>
                                         <div class="carousel-item">
                                         <div class="cards-wrapper">
@@ -137,21 +133,15 @@ use SYRADEV\app\DemoController;
                                         </div>
                                           <img src="<?= DemoController::assets('/imgs/apocalypse.jpg'); ?>" class="d-block w-100" alt="...">
                                           <div class="carousel-caption d-none d-md-block">
-                                            <h5>Framework</h5>
                                           </div>
                                         </div>
-
                                         <div class="carousel-item">
-                                          <img src="<?= DemoController::assets('/imgs/outils.png'); ?>" class="d-block w-100" alt="...">
-                                            <div class="carousel-caption d-none d-md-block">
-                                              <h5>Outils</h5>
-                                            </div>
+                                          <img src="<?= DemoController::assets('/imgs/thunder.jpg'); ?>" class="d-block w-100" alt="...">
+
                                           </div>
                                           <div class="carousel-item">
-                                          <img src="<?= DemoController::assets('/imgs/divers.png'); ?>" class="d-block w-100" alt="...">
-                                            <div class="carousel-caption d-none d-md-block">
-                                              <h5>Divers</h5>
-                                            </div>
+                                          <img src="<?= DemoController::assets('/imgs/mig.jpg'); ?>" class="d-block w-100" alt="...">
+
                                           </div>
                                       </div>
                                       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
