@@ -36,7 +36,7 @@ use SYRADEV\app\DemoController;
                       </li>
 
                       <li class="list-group-item">
-                      <a href="" class="link-offset-2 link-underline link-underline-opacity-0">
+                      <a href="https://github.com/Matth98666/fetch-login" class="link-offset-2 link-underline link-underline-opacity-0">
                         <div class="row">
                           <div class="col">
                             <img src="<?= DemoController::assets('/imgs/login.png'); ?>" width="100px" alt="">
@@ -49,13 +49,13 @@ use SYRADEV\app\DemoController;
                       </li>
 
                       <li class="list-group-item">
-                      <a href="" class="link-offset-2 link-underline link-underline-opacity-0">
+                      <a href="https://github.com/Matth98666/ECF1-Frontend-Responsive-Design-C2-LV3" class="link-offset-2 link-underline link-underline-opacity-0">
                         <div class="row">
                           <div class="col">
                             <img src="<?= DemoController::assets('/imgs/android-chrome-512x512.png'); ?>" width="100px" alt="">
                           </div>
                           <div class="col">
-                            MVC Countries
+                            Responsive design
                           </div>
                         </div>
                       </a>
