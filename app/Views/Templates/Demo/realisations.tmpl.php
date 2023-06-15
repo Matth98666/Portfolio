@@ -16,6 +16,9 @@ use SYRADEV\app\DemoController;
                             <img src="<?= DemoController::assets('/imgs/LOGOArtucreatingcomplet.png'); ?>" width="100px" alt="">
                           </div>
                           <div class="col">
+                            Art U Creating
+                          </div>
+                          <div class="col">
                             Réalisation d'un blog de partage de création multimédias (vidéo, son et photo) et des tutorielles permettant d'acquérir des astuces pour réaliser du contenu multimédias
                           </div>
                         </div>
@@ -31,6 +34,9 @@ use SYRADEV\app\DemoController;
                           <div class="col">
                             MVC Countries
                           </div>
+                          <div class="col">
+                            Application affichant les information sur tous les pays du monde
+                          </div>
                         </div>
                       </a>
                       </li>
@@ -44,6 +50,9 @@ use SYRADEV\app\DemoController;
                           <div class="col">
                             Login + CRUD Utilisateurs
                           </div>
+                          <div class="col">
+                            Création d'un interface de connexion, d'un espace utilisateur ainsi q'un CRUD permettant à un utilisateur de gérer les compte de chaque utilisateur. 
+                          </div>
                         </div>
                       </a>
                       </li>
@@ -52,17 +61,17 @@ use SYRADEV\app\DemoController;
                       <a href="https://github.com/Matth98666/ECF1-Frontend-Responsive-Design-C2-LV3" class="link-offset-2 link-underline link-underline-opacity-0">
                         <div class="row">
                           <div class="col">
-                            <img src="<?= DemoController::assets('/imgs/android-chrome-512x512.png'); ?>" width="100px" alt="">
+                            <img src="<?= DemoController::assets('/imgs/logosimplon.png'); ?>" width="100px" alt="">
                           </div>
                           <div class="col">
                             Responsive design
                           </div>
+                          <div class="col">
+                            Réalisation d'une maquette + réalisation d'un projet front-end (HTML/CSS/JS)
+                          </div>
                         </div>
                       </a>
                       </li>
-                      
-                      <li class="list-group-item"></li>
-                      <li class="list-group-item">Formulaires PHP</li>
                     </ul>
                 <h1>Divers</h1>
                 <div class="container text-center">
