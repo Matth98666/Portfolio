@@ -19,13 +19,13 @@ $degres = MvcUIController::huerotate();
 
 ?>
 
-<div class="container py-2 py-md-4 py-lg-5">
+<div class="container text-center py-2 py-md-4 py-lg-5">
     <div class="row">
         <div class="col">
             <figure class="card position-relative bg-light-subtle py-3 p-0 mt-4 mb-0 ms-xl-5 animated fadeIn" style="border: none;">
                 <blockquote class="card-body mb-0">
-                    <img src="<?= MvcUIController::assets('/imgs/logosimploncomplet.png'); ?>" class="position-relative top-50 start-50 translate-middle" alt="...">
-                    <br>
+                    <img src="<?= MvcUIController::assets('/imgs/logosimploncomplet.png'); ?>"  alt="...">
+                    <br><br>
                     <h1>Matthias NEVIERE</h1>
                     <h2>25 ans<br><br>
                         Concepteur développeur d'applications en spécialité DevOps<br>  

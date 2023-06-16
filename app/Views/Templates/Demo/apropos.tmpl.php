@@ -8,7 +8,7 @@ use SYRADEV\app\DemoController;
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>A propost</title>
+    <title>A propos</title>
 </head>
 <body>
 <div class="container py-2 py-md-4 py-lg-5">
@@ -202,45 +202,53 @@ use SYRADEV\app\DemoController;
                     </div>
 
                     <h2><strong>Mes centres d'intérêts</strong></h2>
+                    <h3>Musique</h3>
                     <div class="container text-center my-5">
                       <div class="row">
-                        <div class="col">
-                          Musique
-                        </div>
                       </div>
                       <br>
                       <div class="row">
                         <div class="col">
-                          Batterie
+                          <img src="<?= DemoController::assets('/imgs/drum.jpg'); ?>" class="d-block w-75" alt="...">
                         </div>
                         <div class="col">
-                          Guitare
+                        <img src="<?= DemoController::assets('/imgs/guitar_and_bass.jpg'); ?>" class="d-block w-75" alt="...">
                         </div>
                         <div class="col">
-                          Basse
-                        </div>
-                        <div class="col">
-                          Clavier
+                        <img src="<?= DemoController::assets('/imgs/synthetiseur.png'); ?>" class="d-block w-75" alt="...">
                         </div>
                       </div>
                     </div>
+
+                    <h3>Video</h3>
+
                     <div class="container text-center my-5">
                       <div class="row">
                         <div class="col">
-                          Montage vidéo
+                          <img src="<?= DemoController::assets('/imgs/Cloning.png'); ?>" class="mx-auto d-block w-75" alt="...">
+                        </div>
+                        <div class="col">
+                          <img src="<?= DemoController::assets('/imgs/sm2.png'); ?>" class="mx-auto d-block w-75" alt="...">
+                        </div>
+                        <div class="col">
+                          <img src="<?= DemoController::assets('/imgs/essai.png'); ?>" class="mx-auto d-block w-75" alt="...">
                         </div>
                       </div>
-                      <br>
                       <div class="row">
                         <div class="col">
-                          Clonages
+                          Cloning
                         </div>
                         <div class="col">
-                          Stop-motion
+                          Stop motion
+                        </div>
+                        <div class="col">
+                          Incrustation
                         </div>
                       </div>
                     </div>
-                    <div class="container text-center my-5">
+
+                    
+                    <!-- <div class="container text-center my-5">
                       <div class="row">
                         <div class="col">
                           Photographie
@@ -305,6 +313,19 @@ use SYRADEV\app\DemoController;
         </div>
     </div>
 </div>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <div></div>
+    </div>
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+  </div>
+</div> -->
 
 </body>
 </html>
