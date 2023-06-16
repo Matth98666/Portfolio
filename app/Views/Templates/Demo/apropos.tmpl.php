@@ -247,24 +247,42 @@ use SYRADEV\app\DemoController;
                       </div>
                     </div>
 
-                    
-                    <!-- <div class="container text-center my-5">
-                      <div class="row">
-                        <div class="col">
-                          Photographie
-                        </div>
-                      </div>
-                      <br>
-                      <div class="row">
-                        <div class="col">
-                          (Mosaïque photos)
-                        </div>
-                      </div>
-                    </div>
+                    <h3>Photographie</h3>
+
                     <div class="container text-center my-5">
                       <div class="row">
                         <div class="col">
-                          Composition de fiction sonore et son d'ambiance
+                          <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Nature</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Véhicules</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Animaux</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="tab" data-bs-toggle="tab" data-bs-target="#tab-pane" type="button" role="tab" aria-controls="tab-pane" aria-selected="false">Divers</button>
+                            </li>
+                          </ul>
+                          <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">...</div>
+                            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
+                            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
+                            <div class="tab-pane fade" id="tab-pane" role="tabpanel" aria-labelledby="tab" tabindex="0">...</div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+
+                    <h3>Composition de fiction sonore et son d'ambiance</h3>
+                    <h3>Sport</h3>
+                    <!-- div class="container text-center my-5">
+                      <div class="row">
+                        <div class="col">
+                          
                         </div>
                       </div>
                       <br>
@@ -278,6 +296,8 @@ use SYRADEV\app\DemoController;
 
                       </div>
                     </div>
+
+                    
                     <div class="container text-center my-5">
                       <div class="row">
                         <div class="col">

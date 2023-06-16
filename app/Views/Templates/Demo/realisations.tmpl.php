@@ -84,10 +84,10 @@ use SYRADEV\app\DemoController;
                       <button type="button" class="btn btn-outline-light"><a href="https://soundcloud.com/user-646538650"><img src="<?= DemoController::assets('/imgs/soundcloud.png'); ?>" width="200px" alt=""></a></button>
                       <h1>Sons</h1>
                     </div>
-                    <div class="col">
+                    <!-- <div class="col">
                       <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><img src="<?= DemoController::assets('/imgs/camera.png'); ?>" width="200px" alt=""></button>
                       <h1>Photos</h1>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
                 </blockquote>
@@ -96,7 +96,7 @@ use SYRADEV\app\DemoController;
     </div>
 </div>
 
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
@@ -159,4 +159,4 @@ use SYRADEV\app\DemoController;
       </div>
     </div>
   </div>
-</div>
+</div> -->
