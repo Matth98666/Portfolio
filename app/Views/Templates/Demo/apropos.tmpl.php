@@ -267,7 +267,20 @@ use SYRADEV\app\DemoController;
                             </li>
                           </ul>
                           <div class="tab-content" id="myTabContent">
-                            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">...</div>
+                            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                            <div class="container text-center">
+                              <div class="row my-5">
+                                <div class="col-sm"><img src="<?= DemoController::assets('/imgs/essai.png'); ?>" class="mx-auto d-block w-75" alt="..."></div>
+                                <div class="col-sm"><img src="<?= DemoController::assets('/imgs/essai.png'); ?>" class="mx-auto d-block w-75" alt="..."></div>
+                                <div class="col-sm"><img src="<?= DemoController::assets('/imgs/essai.png'); ?>" class="mx-auto d-block w-75" alt="..."></div>
+                              </div>
+                              <div class="row my-5">
+                                <div class="col-sm"><img src="<?= DemoController::assets('/imgs/essai.png'); ?>" class="mx-auto d-block w-75" alt="..."></div>
+                                <div class="col-sm"><img src="<?= DemoController::assets('/imgs/essai.png'); ?>" class="mx-auto d-block w-75" alt="..."></div>
+                                <div class="col-sm"><img src="<?= DemoController::assets('/imgs/essai.png'); ?>" class="mx-auto d-block w-75" alt="..."></div>
+                              </div>
+                            </div>
+                            </div>
                             <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
                             <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
                             <div class="tab-pane fade" id="tab-pane" role="tabpanel" aria-labelledby="tab" tabindex="0">...</div>
