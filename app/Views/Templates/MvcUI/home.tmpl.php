@@ -25,7 +25,7 @@ $degres = MvcUIController::huerotate();
             <figure class="card position-relative bg-light-subtle py-3 p-0 mt-4 mb-0 ms-xl-5 animated fadeIn" style="border: none;">
                 <blockquote class="card-body mb-0">
                     <img src="<?= MvcUIController::assets('/imgs/logosimploncomplet.png'); ?>"  alt="...">
-                    <br><br>
+                    <br><br><br>
                     <h1>Matthias NEVIERE</h1>
                     <h2>25 ans<br><br>
                         Concepteur développeur d'applications en spécialité DevOps<br>  
