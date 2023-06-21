@@ -270,14 +270,14 @@ use SYRADEV\app\DemoController;
                             <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
                             <div class="container text-center">
                               <div class="row my-5">
-                                <div class="col-sm"><img src="<?= DemoController::assets('/imgs/essai.png'); ?>" class="mx-auto d-block w-75" alt="..."></div>
-                                <div class="col-sm"><img src="<?= DemoController::assets('/imgs/essai.png'); ?>" class="mx-auto d-block w-75" alt="..."></div>
-                                <div class="col-sm"><img src="<?= DemoController::assets('/imgs/essai.png'); ?>" class="mx-auto d-block w-75" alt="..."></div>
+                                <div class="col-sm"><img src="<?= DemoController::assets('/imgs/thunder2.jpg'); ?>" class="mx-auto d-block w-75" alt="..."></div>
+                                <div class="col-sm"><img src="<?= DemoController::assets('/'); ?>" class="mx-auto d-block w-75" alt="..."></div>
+                                <div class="col-sm"><img src="<?= DemoController::assets('/'); ?>" class="mx-auto d-block w-75" alt="..."></div>
                               </div>
                               <div class="row my-5">
-                                <div class="col-sm"><img src="<?= DemoController::assets('/imgs/essai.png'); ?>" class="mx-auto d-block w-75" alt="..."></div>
-                                <div class="col-sm"><img src="<?= DemoController::assets('/imgs/essai.png'); ?>" class="mx-auto d-block w-75" alt="..."></div>
-                                <div class="col-sm"><img src="<?= DemoController::assets('/imgs/essai.png'); ?>" class="mx-auto d-block w-75" alt="..."></div>
+                                <div class="col-sm"><img src="<?= DemoController::assets('/imgs/'); ?>" class="mx-auto d-block w-75" alt="..."></div>
+                                <div class="col-sm"><img src="<?= DemoController::assets('/imgs/'); ?>" class="mx-auto d-block w-75" alt="..."></div>
+                                <div class="col-sm"><img src="<?= DemoController::assets('/imgs/'); ?>" class="mx-auto d-block w-75" alt="..."></div>
                               </div>
                             </div>
                             </div>
@@ -292,73 +292,6 @@ use SYRADEV\app\DemoController;
 
                     <h3>Composition de fiction sonore et son d'ambiance</h3>
                     <h3>Sport</h3>
-                    <!-- div class="container text-center my-5">
-                      <div class="row">
-                        <div class="col">
-                          
-                        </div>
-                      </div>
-                      <br>
-                      <div class="row">
-                        <div class="col">
-                          Son de la nature
-                        </div>
-                        <div class="col">
-                          Divers scènes 
-                        </div>
-
-                      </div>
-                    </div>
-
-                    
-                    <div class="container text-center my-5">
-                      <div class="row">
-                        <div class="col">
-                          Sport
-                        </div>
-                      </div>
-                      <br>
-                      <div class="row">
-                        <div class="col">
-                          VTT
-                        </div>
-                        <div class="col">
-                          Randonnée
-                        </div>
-                        <div class="col">
-                          Natation
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col">
-                          Ski
-                        </div>
-                        <div class="col">
-                          Longboard
-                        </div>
-                        <div class="col">
-                          Stand-up paddle
-                        </div>
-                      </div>
-                    </div>
-                </blockquote>
-            </figure>
-        </div>
-    </div>
-</div>
-<div class="container text-center">
-  <div class="row">
-    <div class="col">
-      <div></div>
-    </div>
-    <div class="col">
-      Column
-    </div>
-    <div class="col">
-      Column
-    </div>
-  </div>
-</div> -->
 
 </body>
 </html>
