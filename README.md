@@ -4,7 +4,7 @@ Mon portfolio avec mon parcours et mes réalisations
 Pour le visualiser:
 
 
-- Placer les fichiers ci - dessus dans un fichier "localsites", à créer (C:\xampp\localsites). De manière à ce que ce portfolio fonctionne comme un site virtuel
+- Placer les fichiers ci - dessus dans un fichier "localsites\portfolio", à créer (C:\xampp\localsites\portfolio). De manière à ce que ce portfolio fonctionne comme un site virtuel
 - Ajouter, dans le fichier "hosts" ("C:\Windows\System32\drivers\etc\hosts"), l'adresse suivante : 127.0.0.1 www.portfolio.org
 - Ajouter, dans le fichier "httpd-vhosts.conf" ("C:\xampp\apache\conf\extra\httpd-vhosts.conf"), le code suivant:
 
