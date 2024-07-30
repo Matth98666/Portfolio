@@ -27,8 +27,8 @@ $degres = MvcUIController::huerotate();
                     <img src="<?= MvcUIController::assets('/imgs/logosimploncomplet.png'); ?>"  alt="...">
                     <br><br><br>
                     <h1>Matthias NEVIERE</h1>
-                    <h2>25 ans<br><br>
-                        Concepteur développeur d'applications en spécialité DevOps<br>  
+                    <h2>26 ans<br><br>
+                        Développeur web et web mobile junior<br>  
                     </h2>
                 </blockquote>
             </figure>

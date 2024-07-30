@@ -93,9 +93,20 @@ use SYRADEV\app\DemoController;
                             <div class="row"><h3><strong>Intérim</strong></h3>
                               <ul class="list-group list-group-flush">
                                 <li class="list-group-item">
-                                  <p>Intérim<br>
+                                  <p>
                                       Manutentionnaire <br>
                                       La Fermière, le yahourt depuis 1952 (Juillet - Août 2019)
+                                  </p>
+                                </li>
+                              </ul>
+                            </div>
+                            <br>
+                            <div class="row"><h3><strong>CDI</strong></h3>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                  <p>
+                                      Employé de libre service <br>
+                                      Super U Saint Zacharie
                                   </p>
                                 </li>
                               </ul>
