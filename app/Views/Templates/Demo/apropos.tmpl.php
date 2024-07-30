@@ -291,20 +291,43 @@ use SYRADEV\app\DemoController;
                           <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
                             <div class="container text-center">
+                            <div class="row">
+                        <div class="col-lg-8">
+                            <div class="row">
+                              <div class="col-sm"><img src="<?= DemoController::assets('/imgs/thunder2.jpg'); ?>" class="mx-auto d-block w-75" alt="..."></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                  <div class="col-sm"><img src="<?= DemoController::assets('/imgs/214782781_801412717406173_445689014584768843_n.jpg'); ?>" class="mx-auto d-block w-75" alt="..."></div>
+                                </div>
+                                <div class="col-lg-6">
+                                  <div class="col-sm"><img src="<?= DemoController::assets('/imgs'); ?>" class="mx-auto d-block w-75" alt="..."></div>
+                                </div>
+                            </div>
+                        </div>
+ 
+                        <div class="col-lg-4">
+                            droite block 4
+                        </div>
+                  </div>
+
+
+                            </div>
+                            </div>
+                            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
                               <div class="row my-5">
-                                <div class="col-sm"><img src="<?= DemoController::assets('/imgs/thunder2.jpg'); ?>" class="mx-auto d-block w-75" alt="..."></div>
-                                <div class="col-sm"><img src="<?= DemoController::assets('/'); ?>" class="mx-auto d-block w-75" alt="..."></div>
-                                <div class="col-sm"><img src="<?= DemoController::assets('/'); ?>" class="mx-auto d-block w-75" alt="..."></div>
+                                <div class="col-sm"><img src="<?= DemoController::assets('/imgs/221452722_829161484458579_3760670081035737460_n.jpg'); ?>" class="mx-auto d-block w-75" alt="..."></div>
+                                <div class="col-sm"><img src="<?= DemoController::assets('/imgs/213562978_200560301903428_6192423687906435118_n.jpg'); ?>" class="mx-auto d-block w-75" alt="..."></div>
+                                <div class="col-sm"><img src="<?= DemoController::assets('/imgs/214738664_174820701374893_1545731541745878689_n.jpg'); ?>" class="mx-auto d-block w-75" alt="..."></div>
                               </div>
+                            </div>
+                            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
                               <div class="row my-5">
-                                <div class="col-sm"><img src="<?= DemoController::assets('/imgs/'); ?>" class="mx-auto d-block w-75" alt="..."></div>
-                                <div class="col-sm"><img src="<?= DemoController::assets('/imgs/'); ?>" class="mx-auto d-block w-75" alt="..."></div>
+                                <div class="col-sm"><img src="<?= DemoController::assets('/imgs/217211764_972632206907106_6288886060800779789_n.jpg'); ?>" class="mx-auto d-block w-75" alt="..."></div>
+                                <div class="col-sm"><img src="<?= DemoController::assets('/imgs/217390391_343151727361581_938570466019594313_n.jpg'); ?>" class="mx-auto d-block w-75" alt="..."></div>
                                 <div class="col-sm"><img src="<?= DemoController::assets('/imgs/'); ?>" class="mx-auto d-block w-75" alt="..."></div>
                               </div>
                             </div>
-                            </div>
-                            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
-                            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
                             <div class="tab-pane fade" id="tab-pane" role="tabpanel" aria-labelledby="tab" tabindex="0">...</div>
                           </div>
 
