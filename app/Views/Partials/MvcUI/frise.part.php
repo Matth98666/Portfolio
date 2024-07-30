@@ -243,13 +243,7 @@
                 Marseille 13
             </div>
         </li>
-        <li>
-            <div>
-                <time>Aujourd'hui</time> Concepteur Développeur d'Application DevOps<br><br>
-                Simplon <br>
-                Marseille 13
-            </div>
-        </li>
+
         <li></li>
     </ol>
 </section><br>

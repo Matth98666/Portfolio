@@ -105,8 +105,13 @@ use SYRADEV\app\DemoController;
                               <ul class="list-group list-group-flush">
                                 <li class="list-group-item">
                                   <p>
-                                      Employé de libre service <br>
-                                      Super U Saint Zacharie
+                                    Employé de libre service <br>
+                                    <ul>
+                                      <li>Remplissage des rayons</li>
+                                      <li>Façing</li>
+                                      <li>Etiquetage</li>
+                                    </ul><br>
+                                      Super U Saint Zacharie (depuis février 2024)
                                   </p>
                                 </li>
                               </ul>
@@ -208,6 +213,12 @@ use SYRADEV\app\DemoController;
                         </div>
                         <div class="col">
                           Travail en équipe
+                        </div>
+                        <div class="col">
+                          Capacité d'adaptation
+                        </div>
+                        <div class="col">
+                          Autonomie
                         </div>
                       </div>
                     </div>
